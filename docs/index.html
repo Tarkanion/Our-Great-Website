@@ -8,11 +8,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
         <script src="script.js" defer></script>
+        <script src="scripts/checkbox.js" defer></script>
     </head>
     <body>
         <div id="content">
             <h2>Hello World</h2>
-            <button id="beep">Click Me</button>
+            <button id="soundButton">Click Me</button>
+            <div id="verification-reminder"></div>
+
+            <div id="captcha">
+                <button id="captcha-checkbox">click to verify</button>
+                <div id="spinner"></div>
+            </div>
         </div>
     </body>
 </html>
